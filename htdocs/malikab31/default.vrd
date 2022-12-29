@@ -3,25 +3,10 @@
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		base="/malikab31"
-		ib="File=&quot;C:\Malika B31&quot;;">
+		ib="File=&quot;C:\Malika B31&quot;;usr=&quot;Администратор&quot;;pwd=&quot;&quot;;"
+		allowexecutescheduledjobs="">
 	<debug enable="true"
 			protocol="tcp"
-			url="tcp://Ismoil_MacBook:1560"/>
-	<ws enable="false"
-			pointEnableCommon="false"/>
-	<standardOdata enable="false"
-			reuseSessions="dontuse"
-			sessionMaxAge="20"
-			poolSize="10"
-			poolTimeout="5"/>
-	<analytics enable="false"/>
-	<httpServices>
-		<service name="bots"
-				rootUrl="bots"
-				enable="true"
-				reuseSessions="autouse"
-				sessionMaxAge="20"
-				poolSize="10"
-				poolTimeout="5"/>
-	</httpServices>
+			url="tcp://Ismoil_MacBook:1562"/>
+	<httpServices publishByDefault = "true"/>
 </point>
